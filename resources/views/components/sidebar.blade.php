@@ -1,4 +1,4 @@
-<aside id="layout-menu" class="layout-menu menu-vertical menu bg-cyan-400">
+<aside id="layout-menu" class="layout-menu menu-vertical menu bg-[#9AC5F4]">
     <div class="app-brand demo">
         <a href="{{ route('home') }}" class="app-brand-link">
             <img src="{{ asset('logo.png') }}" alt="{{ config('app.name') }}" width="35">
