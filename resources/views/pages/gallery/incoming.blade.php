@@ -18,7 +18,6 @@
         @endforeach
     </div>
 
-
     {!! $data->appends(['search' => $search])->links() !!}
 
 @endsection
