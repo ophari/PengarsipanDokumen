@@ -27,7 +27,7 @@
         <li class="menu-item {{ Route::is('transaction.*') ? 'active open' : '' }}">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-mail-send"></i>
-                <div data-i18n="{{ __('menu.transaction.menu') }}">{{ __('menu.transaction.menu') }}</div>
+                <div data-i18n="{{ __('menu.transaction.menu') }}">{{ __('surat') }}</div>
             </a>
             <ul class="menu-sub">
                 <li class="menu-item {{ Route::is('transaction.incoming.*') || Route::is('transaction.disposition.*') ? 'active' : '' }}">
@@ -68,11 +68,12 @@
         <li class="menu-header small text-uppercase">
             <span class="menu-header-text">{{ __('menu.header.other_menu') }}</span>
         </li>
-        <li class="menu-item {{ Route::is('gallery.*') ? 'active open' : '' }}">
-            {{-- <a href="javascript:void(0);" class="menu-link menu-toggle">
+        {{-- fiturnya masih dalam perbaikan --}}
+        {{-- <li class="menu-item {{ Route::is('gallery.*') ? 'active open' : '' }}">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-images"></i>
                 <div data-i18n="{{ __('menu.gallery.menu') }}">{{ __('menu.gallery.menu') }}</div>
-            </a> --}}
+            </a>
             <ul class="menu-sub">
                 <li class="menu-item {{ Route::is('gallery.incoming') ? 'active' : '' }}">
                     <a href="{{ route('gallery.incoming') }}" class="menu-link">
@@ -87,7 +88,7 @@
                     </a>
                 </li>
             </ul>
-        </li>
+        </li> --}}
         
             <li class="menu-item {{ Route::is('reference.*') ? 'active open' : '' }}">
                 <a href="javascript:void(0);" class="menu-link menu-toggle">
